@@ -1,0 +1,71 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.nav-link{
+  color: antiquewhite !important;
+  font-size: 20px !important;
+}
+
+.nav-link:hover{
+  color: yellow !important;
+}
+
+
+.section-title{
+  padding: 80px 0 ;
+  cursor: pointer !important;
+}
+
+.section-title:hover{
+  color: yellow !important;
+}
+
+.skills-data h4:hover{
+  color: aqua !important;
+  cursor: pointer !important;
+}
+.navbar-brand{
+  color: rgb(226, 226, 226) !important;
+  cursor: pointer;
+  font-size: 25px !important;
+}
+
+.navbar-brand:hover{
+  color: brown !important;
+}
+
+#skills{
+  background-color: rgba(78, 36, 36, 0.975) !important;
+}
+
+ h4:hover{
+  color: yellow !important;
+  cursor: pointer !important;
+}
+/* Responsive Media Queries */
+@media (max-width: 576px) {
+  .home-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .skills-section h4 {
+    font-size: 1.5rem;
+  }
+
+  .projects-section h5 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .home-section h1 {
+    font-size: 3.5rem;
+  }
+
+  .projects-section h5 {
+    font-size: 1.5rem;
+  }
+}
